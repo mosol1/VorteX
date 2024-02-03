@@ -218,9 +218,9 @@ echo "                                                                          
 echo "                                                                                                                    ";
 echo "           	[1] Optimizations        [2] CPU Boost       [3] GPU Boost       [4] Memory Tweaks                ";
 echo "                                                                                                                    "
-echo "                       [5] InputDelay[Keybd]      [6]InputDelay[Mouse]  [7] 0 Ping  [8] 0 Delay
+echo "                       [5] InputDelay[Keybd]      [6]InputDelay[Mouse]  [7] 0 Ping [ADV Net Tweaks]  
 echo.
-echo                                 [9]                    [10] Cleaner
+echo                                 [8] 0 Delay     [9] 0 Delay               [10] Cleaner
 echo.
 echo                           [A] Recommended Programs [F] FortniteBooster [G] GameOptiFlow
 echo. 
@@ -288,7 +288,6 @@ goto MU
 echo Invalid Input, Goint to menu...
 goto Homepage
 
-
 :M1
 cls
 echo.
@@ -303,14 +302,35 @@ echo "       \  $$$/ | $$  | $$| $$        | $$ /$$| $$_____/  >$$  $$ | $$| $$ 
 echo "        \  $/  |  $$$$$$/| $$        |  $$$$/|  $$$$$$$ /$$/\  $$| $$|  $$$$$/$$$$/|  $$$$$$$|  $$$$$$$| $$ \  $$   ";
 echo "         \_/    \______/ |__/         \___/   \_______/|__/  \__/|__/ \_____/\___/  \_______/ \_______/|__/  \__/   ";
 echo.
-echo "
+echo "        All These tweaks are automatic including the islc the setting are alredy set for best performance          ";
 echo "                                                                                                                    ";
 echo "                                                                                                                    ";
-echo "                             [1] Disable Gamebar  [2]Bcdedit Tweaks  [3]DWM Twaks                                                 ";
-echo.                                   
-echo                               [4] 
+echo "                             [1] Priorities   [2] FortnitePerfMod    [3] FortniteResolution + Guide                      ";      
+echo "                                                                                                                    ";
+echo "                             [4] FortniteCommandLine            [5]                                                 ";
 
 
+
+:M3
+cls
+echo.
+echo                        Speeds up performance, Eliminates Input delay, Minimizes latency, and ping
+echo         __     __                       __                       ________                                 __
+echo "      /$$    /$$                      /$$                      /$$$$$$$$     Press [M] to go to Menu    /$$         ";
+echo "     | $$   | $$                     | $$                     |__  $$__/                               | $$         ";
+echo "     | $$   | $$ /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$  /$$   /$$| $$ /$$  /$$  /$$  /$$$$$$   /$$$$$$ | $$   /$$   ";
+echo "     |  $$ / $$//$$__  $$ /$$__  $$|_  $$_/   /$$__  $$|  $$ /$$/| $$| $$ | $$ | $$ /$$__  $$ |____  $$| $$  /$$/   ";
+echo "      \  $$ $$/| $$  \ $$| $$  \__/  | $$    | $$$$$$$$ \  $$$$/ | $$| $$ | $$ | $$| $$$$$$$$  /$$$$$$$| $$$$$$/    ";
+echo "       \  $$$/ | $$  | $$| $$        | $$ /$$| $$_____/  >$$  $$ | $$| $$ | $$ | $$| $$_____/ /$$__  $$| $$_  $$    ";
+echo "        \  $/  |  $$$$$$/| $$        |  $$$$/|  $$$$$$$ /$$/\  $$| $$|  $$$$$/$$$$/|  $$$$$$$|  $$$$$$$| $$ \  $$   ";
+echo "         \_/    \______/ |__/         \___/   \_______/|__/  \__/|__/ \_____/\___/  \_______/ \_______/|__/  \__/   ";
+echo.
+echo "        All These tweaks are automatic including the islc the setting are alredy set for best performance          ";
+echo "                                                                                                                    ";
+echo "                                                                                                                    ";
+echo "                             [1] Peemition [2] FortnitePerfMod    [3] FortniteResolution + Guide                      ";      
+echo "                                                                                                                    ";
+echo "                             [4] FortniteCommandLine            [5]                                                 ";
 
 
 
@@ -680,8 +700,8 @@ echo                                                                Press [M] to
 echo                                        High end PCs [1920x1080]       
 echo.
 echo.
-echo                           	[1] 1720 x 1080  
-echo                                          -Peterbot,AsianJeff. Better aim precision, Low input delay, + Fps boost
+echo                        [1] 1720 x 1080  
+echo                                      -Peterbot,AsianJeff. Better aim precision, Low input delay, + Fps boost
 echo.
 echo                            [2] 1680 x 1050 
 echo                                          -Martoz  Better aim, low input day. Not too stretched + Fps
@@ -761,14 +781,16 @@ echo                                                                Press [M] to
 echo                                        Mid end PCs [1920x1080]       
 echo.
 echo.
-echo                           	[1] 1720 x 1080  
-echo                                          -Peterbot,AsianJeff. Better aim precision, Low input delay, + Fps boost
+echo                        [1] 1024 x 768  
+echo                                      - Low input delay, + Fps boost
 echo.
-echo                            [2] 1680 x 1050 
-echo                                          -Martoz  Better aim, low input day. Not too stretched + Fps
+echo                            [2] 1720 x 1080 
+echo                                          - very stretched, Better aim,  + Fps
 echo.
-echo                            [3] 1550 x 1080
-echo                                          -Pretty stretched(Wide) . Still playable Best wide resolution for Comp.     
+echo                            [3] 1650 x 1080
+echo                                          - +Fps.
+echo                            [4] 1680 x 1080
+echo                                          -Pretty stretched(Wide) .good aim
 echo.                                               
 echo                                                                  [A] Apply a Resolution    
 echo                                                                  [B] Go back
@@ -830,7 +852,7 @@ timeout /t 5 >nul
 goto RP-1
 
 :RP-3
-rem High end PCs
+rem Low end PCs
 cls
 echo "                           _    __                     __      __  _                                                ";
 echo "                          | |  / /_______  _________  / /_  __/ /_(_)___  ____  _____                               ";
@@ -842,8 +864,8 @@ echo                                                                Press [M] to
 echo                                        Low end PCs [1920x1080]       
 echo.
 echo.
-echo                           	[1] 936 x 648
-echo                                          -Better aim precision, Low input delay, + 40% Fps boost
+echo                        [1] 936 x 648
+echo                                      -Better aim precision, Low input delay, + 40% Fps boost
 echo.
 echo                            [2] 800 x 600
 echo                                          -Better aim, low input day. Good quality + Fps
@@ -1238,3 +1260,4 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image F
 :: Add PerfOptions key and values
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe\PerfOptions" /v "CpuPriorityClass" /t REG_DWORD /d 1 /f
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\svchost.exe\PerfOptions" /v "IoPriority" /t REG_DWORD /d 0 /f
+v
