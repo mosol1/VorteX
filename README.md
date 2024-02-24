@@ -1,1 +1,2 @@
-this is vorteX registry and script and applications
+this is vorteX registry,script,applications
+tweaks and games
