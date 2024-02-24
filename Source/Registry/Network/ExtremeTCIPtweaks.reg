@@ -289,22 +289,6 @@ Windows Registry Editor Version 5.00
 "TcpNumConnections"=dword:00000500
 "TcpWindowSize"=dword:0003ebc0
 
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Mojang]
-
-[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Mojang\Minecraft]
-"DesktopSC"=dword:00000001
-"DisplayName"="@%appdata%\\.minecraft\\versions\\1.7.10\\1.7.10.jar"
-"GameFluidity"=dword:ffffffff
-"installed"=dword:00000001
-"MSS"=dword:ffffffff
-"MTU"=dword:ffffffff
-"Path"="C:\\Users\\\"ATA\"\\AppData\\Roaming\\.minecraft\\\\"
-"T1"=dword:57b5c2d3
-"T2"=dword:57b6021b
-"TCP"=dword:00000500
-"TcpDelAckTicks"=dword:00000000
-"TcpNoDelay"=dword:00000001
-"Version"="1.7.10"
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters]
 "DataBasePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
@@ -5605,35 +5589,14 @@ Windows Registry Editor Version 5.00
 "TcpNumConnections"=dword:00000500
 "TcpWindowSize"=dword:0003ebc0
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Mojang]
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Mojang\Minecraft]
-"DesktopSC"=dword:00000001
-"DisplayName"="@%appdata%\\.minecraft\\versions\\1.7.10\\1.7.10.jar"
-"GameFluidity"=dword:ffffffff
-"installed"=dword:00000001
-"MSS"=dword:ffffffff
-"MTU"=dword:ffffffff
-"Path"="C:\\Users\\\"ATA\"\\AppData\\Roaming\\.minecraft\\\\"
-"T1"=dword:57b5c2d3
-"T2"=dword:57b6021b
-"TCP"=dword:00000500
-"TcpDelAckTicks"=dword:00000000
-"TcpNoDelay"=dword:00000001
-"Version"="1.7.10"
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
 "DataBasePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
   00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
   64,00,72,00,69,00,76,00,65,00,72,00,73,00,5c,00,65,00,74,00,63,00,00,00
-"Domain"=""
 "ForwardBroadcasts"=dword:00000000
-"ICSDomain"="mshome.net"
 "IPEnableRouter"=dword:00000000
-"NameServer"=""
 "SyncDomainWithMembership"=dword:00000001
-"NV Hostname"="PC-PANTALON"
-"Hostname"="PC-PANTALON"
 "DmaRemappingCompatible"=dword:00000000
 "TcpWindowSize"=dword:00255552
 "MaxUserPort"=dword:00ffffff
