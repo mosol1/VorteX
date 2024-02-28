@@ -1,0 +1,16 @@
+@echo off
+
+:: Warning: Verify the original value before running the script!  
+::          Proceeding otherwise could cause further issues. 
+
+:: Key and value (adjust if needed)
+set fsKey="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel"
+set fsValue="obcaseinsensitive" 
+
+:: Assuming the original value was 1 (verify before running)
+set originalValue=1 
+
+:: Restore the value
+reg add "%fsKey%" /v %fsValue% /t REG_DWORD /d %originalValue% /f > nul 2>&1 
+
+echo FSO setting restoration attempted (assuming original value). Restart may be required.
