@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM]
+"MinimumFileCacheSize"=hex(b):00,00,00,00,00,10,00,00
