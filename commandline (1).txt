@@ -1,0 +1,10 @@
+-nomansky +mat_antialias 0 
+-USEALLAVAILABLECORES 
+-NOSPLASH 
+-NOTEXTURESTREAMING 
+-lanplay 
+-limitclientticks 
+-noprecache 
+-nomemrestrict 
+-percentvidmem 100 
+-availablevidmem 2.0
